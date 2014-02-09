@@ -274,11 +274,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		“Y0L0HUDRC2.0”
+		"labelText"		“Y0L0HUD”
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"91"
-		"wide"			“200”
+		"wide"			“270”
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"

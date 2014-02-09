@@ -14,31 +14,32 @@
 		"enabled"		"1"
 	}
 
-	"PlayerStatusClassImage" //When not disguised, the spy's image.  When disguised, the image of the class you're disguised as.
+	"PlayerStatusClassImage" 
+	//When not disguised, the spy's image.  When disguised, the image of the class you're disguised as.
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"c-286" //"35"
+		"xpos"			"c-286" 
 		"ypos"			"r36"
 		"zpos"			"3"
 		"wide"			"37"
 		"tall"			"37"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		“1”
+		"enabled"		“1”
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"
 	}
-	"PlayerStatusSpyImage" //When disguised, the spy's image.  Invisible when not disguised.
+	"PlayerStatusSpyImage" //When disguisew, the spy's image.  Invisible when not disguised.
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"c-310" //"20"
+		"xpos"			"c-310" 
 		"ypos"			"r52"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		“1”
+		"enabled"		“1”
 		"image"			"../hud/class_spyred"
 		"teambg_2"		"../hud/class_spyred"
 		"teambg_3"		"../hud/class_spyblue"

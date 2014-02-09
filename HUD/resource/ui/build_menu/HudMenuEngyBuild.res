@@ -52,15 +52,15 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"kbnBlack20"
-		"xpos"			"103"			// align me to the left edge of the first selection
-		"ypos"			"2"
+		"font"			"HudFontGiantBold"
+		"xpos"			"68"			// align me to the left edge of the first selection
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_build_title"
 		"textAlignment"	"Left"
@@ -72,10 +72,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"kbnBlack20"
+		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"104"			// align me to the left edge of the first selection
-		"ypos"			"-2"
+		"xpos"			"69"			// align me to the left edge of the first selection
+		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"
@@ -108,21 +108,58 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+
+	"BuildTitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BuildTitle"
+		"font"			"DefaultLargeShadow"
+		"labelText"		"What to build..."
+		"textAlignment"	"west"
+		"xpos"			"8"
+		"ypos"			"7"
+		"zpos"			"3"
+		"wide"			"230"
+		"tall"			"20"
+		"tall_lodef"	"24"
+		"tall_hidef"	"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"BuildTitleBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BuildTitleBG"
+		"xpos"			"2"
+		"ypos"			"9"
+		"zpos"			"1"
+		"wide"			"248"
+		"tall"			"16" //"68"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"	
+		"fillcolor"		"115 206 116 128"
+		"PaintBackgroundType"	"0"
+	}
 	
 	"BuildBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildBG"
 		"xpos"			"2"
-		"ypos"			"13"
+		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"248"
-		"tall"			"90" //"68"
+		"tall"			"68" //"68"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"	
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"0 0 0 128"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -317,30 +354,5 @@
 		"wide"			"72" //"100"
 		"tall"			"96" //"124"
 		"visible"		"0"
-	}
-	"TeamColoredBar"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredBar"
-		"xpos"			"2"
-		"ypos"			"9"
-		"zpos"			"1"
-		"wide"			"248"
-		"tall"			"16" //"68"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"	
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
-		
-		"src_corner_height"		"3"		// pixels inside the image
-		"src_corner_width"		"3"
-		
-		"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
 	}
 }
