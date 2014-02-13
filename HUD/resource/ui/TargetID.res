@@ -11,8 +11,8 @@
 		"tall"	 			"8"
 		"autoResize"			"0"
 		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			“1”
+		"visible"			“0”
+		"enabled"			“0”
 		"image"				"../hud/color_panel_brown"
 		"scaleImage"			"1"
 		"teambg_1"			"../hud/color_panel_brown"
@@ -122,7 +122,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"			"0"
-		"fgcolor_override"			"144 223 23 255"
+		"fgcolor_override"			"255 0 0 255"
 	}
 	"SpectatorGUIHealth"
 	{

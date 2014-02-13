@@ -54,8 +54,8 @@
 		"zpos"				"-2"
 		"wide"				"120"
 		"tall"	 			"14"
-		"visible"			“0”
-		"enabled"			“0”
+		"visible"			"1"
+		"enabled"			"1"
 		"image"				"../hud/color_panel_brown"
 		"scaleImage"			"1"
 		"teambg_1"			"../hud/color_panel_brown"
@@ -77,7 +77,7 @@
 		"xpos"			"50"
 		"ypos"			"14"
 		"zpos"			"1"
-		"wide"			“85”
+		"wide"			"85"
 		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
