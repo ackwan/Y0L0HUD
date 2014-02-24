@@ -39,8 +39,8 @@
 		"zpos"			"9"
 		"wide"			"16"
 		"tall"			"16"
-		"visible"		“0”
-		"enabled"		“0”
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -104,8 +104,8 @@
 		"tall"	 			"2"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			“0”
-		"enabled"			“0”
+		"visible"			"1"
+		"enabled"			"1"
 		"image"				"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"			"../hud/color_panel_brown"
@@ -142,8 +142,8 @@
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		“1”
-		"enabled"		“1”
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"West"	
 		"font"			"kbnBlack24"
@@ -196,7 +196,30 @@
 		"textAlignment"	"West"	
 		"font"			"kbnBlack24"
 		"fgcolor"		"Black"
-		"PlayerStatusBleedImage"
+	}
+	"TeamBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamBG"
+		"xpos"			"91"		[$WIN32]
+		"ypos"			"62"	[$WIN32]
+		"xpos"			"60"	[$X360]
+		"ypos"			"r82"	[$X360]
+		"zpos"			"2"		
+		"wide"			"3"
+		"tall"			"19"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/character_red_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/character_red_bg"
+		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
+		"teambg_3"		"../hud/character_blue_bg"
+		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
+		"src_corner_height"		"40"			
+		"src_corner_width"		"40"
+	}
+	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
